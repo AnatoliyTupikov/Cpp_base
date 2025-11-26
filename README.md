@@ -2,6 +2,5 @@
 
 ## Link list:
 
-- [Redirect input stream to console from file](https://github.com/AnatoliyTupikov/Cpp_base/blob/main/Lab05_Array/Lab05_01%2B.cpp):
-	- 123
+- [Redirect input stream to console from file](https://github.com/AnatoliyTupikov/Cpp_base/blob/main/Lab05_Array/Lab05_01%2B.cpp)
 - [Sorting an array using choice sort algorithm](https://github.com/AnatoliyTupikov/Cpp_base/blob/main/Lab05_Array/Lab05_2%2B.cpp)
