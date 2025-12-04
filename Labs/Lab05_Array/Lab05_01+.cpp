@@ -9,7 +9,7 @@ void main()
 	std::cout << "Current path is: " << exePath << std::endl;
 
 
-	std::ifstream fileStream("Lab05_01_input.txt"); //without new operator, because we don't need dynamic memory (heap) allocation here
+	std::ifstream fileStream("Lab05_01+_input.txt"); //without new operator, because we don't need dynamic memory (heap) allocation here
 	if (!fileStream) //check if file opened successfully. "Null" and "0" implicitly convert to false in C++
 	{
 		std::cout << "Error opening file!" << std::endl;
