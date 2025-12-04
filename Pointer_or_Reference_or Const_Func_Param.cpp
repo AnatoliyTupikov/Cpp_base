@@ -26,8 +26,19 @@ void FooReference(int& param)
 	param = 40;
 }
 
+void FooConstant(const int& param, const int* const Pparam, const int ar[])
+{
+	//it's a function with constant parameter.
+	//We can't change the value of the variable passed by reference directly without dereference.
+	param = 40; //const int& param
+	Pparam = nullptr; //const int* const Pparam OR int const* const Pparam
+	ar[0] = 3; //const int ar[]
+	ar = new int[3]; //"const int ar[]" doesn't protect the pointer itself. For that we need "const int* const ar"
+
+}
+
 void main()
 {
-
+	
 	
 }
