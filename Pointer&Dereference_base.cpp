@@ -1,5 +1,9 @@
 #include<iostream>;
-
+namespace t
+{
+	int* test = new int(5); //dynamically allocate an integer and assign its address to pointer "test"
+	int stack_var = 10;
+}
 
 
 void main()
@@ -45,6 +49,10 @@ void main()
 
 		std::cout << std::endl;
 	}
+
+	
+	
+	std::cout << "Test: " << t::test << std::endl; //dangling pointer, because the memory is deallocated but the pointer still points to that memory address.
 
 
 }
